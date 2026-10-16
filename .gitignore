@@ -1,0 +1,36 @@
+# Local configuration and credentials
+/config.json
+/wizard_config.json
+/config.json.bak
+*.bak
+*.tmp
+*.temp
+
+# Runtime logs and state
+*.log
+/logs/
+/.disabled
+/.alert_state
+/.network_state
+*.pid
+*.lock
+*.state.json
+*state*.json
+
+# Local archives and backups
+_archive*/
+_backup*/
+*_backup*/
+*Archive*/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.suo
+*.user
+
+# Windows artifacts
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/

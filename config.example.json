@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "DeviceName": "",
+  "PrivacyMode": "TitleOnly",
+  "CustomPrivacyFields": {
+    "IncludeDeviceName": true,
+    "IncludeAppName": true,
+    "IncludeTitle": true,
+    "IncludeBody": false
+  },
+  "AppFilterMode": "Allowlist",
+  "AllowedAppIds": [
+    "WhatsApp",
+    "Telegram",
+    "Google Chrome",
+    "Slack",
+    "Discord",
+    "Microsoft Teams",
+    "Windows Security"
+  ],
+  "BlockedAppIds": [],
+  "IgnoreAppIds": [],
+  "NtfyServer": "https://ntfy.sh",
+  "NtfyTopic": "",
+  "NtfyToken": "",
+  "LiveForwardingEnabled": false,
+  "DryRun": true,
+  "PollIntervalSeconds": 1.5,
+  "MaxRetries": 3,
+  "RetryInitialDelaySeconds": 2.0,
+  "MaxBacklogIds": 1000,
+  "MaxPendingRetryQueue": 100
+}
