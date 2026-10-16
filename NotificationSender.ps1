@@ -328,7 +328,7 @@ function Send-SingleAttempt {
         $headers = @{
             "Title"    = $headerTitleClean
             "Priority" = "3"
-            "Tags"     = "computer,bell"
+
         }
     }
     }
